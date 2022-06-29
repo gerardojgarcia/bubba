@@ -15,6 +15,9 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 3rem;
 }
 
 .square {
@@ -30,7 +33,7 @@ ol, ul {
   padding: 0;
   text-align: center;
   width: 100px;
-  transition: background-color 500ms;
+  transition: background-color 500ms ease-in-out;
 }
 
 .square:hover {
@@ -49,9 +52,10 @@ ol, ul {
   display: flex;
   flex-direction: row;
   border: 2px solid black;
-  box-shadow: 5px 5px 0px 2px;
-  width: 350px;
+  box-shadow: 7px 7px 0px 2px;
+  width: 375px;
   margin: 0 auto;
+  margin-top: 250px;
 }
 
 .game-info {
